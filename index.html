@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Tourist</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <style>
+      html,body{
+        width: 100%;
+        overflow-x: hidden;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Upper Nav section start -->
+    <section>
+      <div
+        class="2xl:container bg-black text-white h-auto  md:h-10 flex justify-between items-center"
+      >
+        <div
+          class="flex md:space-x-5 md:items-center md:py-0 py-5 justify-start md:flex-row flex-col md:px-10 font-semibold text-xl md:text-sm space-y-2 md:space-y-0"
+        >
+          <div>
+            <p>
+              <i class="fa-solid fa-location-dot me-2"></i>123 Street, New York,
+              USA
+            </p>
+          </div>
+          <div>
+            <p><i class="fa-solid fa-phone me-2"></i>+012 345 6789</p>
+          </div>
+          <div>
+            <p><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+          </div>
+        </div>
+        <div class="pe-10 md:block hidden">
+          <div class="space-x-1">
+            <a
+              style="border: 1px solid; border-radius: 50%"
+              class="text-white hover:text-black hover:bg-white p-1 rounded-full"
+              href=""
+              ><i class="fa-brands fa-twitter p-1"></i
+            ></a>
+            <a
+              style="border: 1px solid; border-radius: 50%"
+              class="text-white hover:text-black hover:bg-white p-1"
+              href=""
+              ><i class="fa-brands fa-facebook p-1"></i
+            ></a>
+            <a
+              style="border: 1px solid; border-radius: 50%"
+              class="text-white hover:text-black hover:bg-white p-1"
+              href=""
+              ><i class="fa-brands fa-linkedin p-1"></i
+            ></a>
+            <a
+              style="border: 1px solid; border-radius: 50%"
+              class="text-white hover:text-black hover:bg-white p-1"
+              href=""
+              ><i class="fa-brands fa-instagram p-1"></i
+            ></a>
+            <a
+              style="border: 1px solid; border-radius: 50%"
+              class="text-white border-white hover:text-black hover:bg-white p-1"
+              href=""
+              ><i class="fa-brands fa-youtube p-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Upper Nav section end -->
+
+    <!-- Navbar section start -->
+    <section id="home">
+      <div class="2xl:container bg-img relative">
+        <nav
+          style="border-bottom: 1px solid gray"
+          class="flex justify-between py-5"
+        >
+          <div class="flex space-x-5 ps-8 items-center">
+            <p>
+            <div>
+              <i class="fa-solid fa-location-dot text-4xl text-primary"></i>
+            </div>
+            <div class="font-bold  text-4xl text-primary">Tourist</div></p>
+          </div>
+          <div class="flex space-x-5 pe-12 items-center text-lg">
+            <div class="hidden lg:block">
+              <ul
+                class="flex justify-end items-center space-x-5 font-semibold text-white"
+              >
+                <li class=" border-primary hover:border-b-2"><a class="decoration-slice hover:text-primary" href="#home">Home</a></li>
+                <li class="hover:border-b-2 border-primary"><a class="decoration-slice hover:text-primary" href="#about">About</a></li>
+                <li class="hover:border-b-2 border-primary"><a class="decoration-slice hover:text-primary" href="#service">Service</a></li>
+                <li class="hover:border-b-2 border-primary"><a class="decoration-slice hover:text-primary" href="#package">Packages</a></li>
+                <li class="hover:border-b-2 border-primary"><a class="decoration-slice hover:text-primary" href="#destination">Pages</a>
+               </li>
+                <li class="hover:border-b-2 border-primary"><a class="decoration-slice hover:text-primary" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="hidden lg:block">
+              <a class="text-white bg-primary rounded-full py-2 px-5 hover:bg-white hover:text-primary" href="#register"
+                >Register</a
+              >
+            </div>
+            <div class="block lg:hidden cursor-pointer">
+              <i class="fa-solid fa-bars text-white text-3xl"></i>
+            </div>
+          </div>
+        </nav>
+        <div style="top: 40%;" class="absolute left-1/4 text-center child">
+          <div class="space-y-5"  data-aos="fade-down">
+            <h1 class="text-6xl text-white font-bold">
+              Enjoy Your Vacation With Us
+            </h1>
+            <p class="text-white font-bold text-lg tracking-tight">
+              Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum
+              lorem sit
+            </p>
+            <div>
+              <input
+                type="text"
+                placeholder="Eg : Thailand"
+                class="w-3/4 h-12 rounded-full px-5"
+              />
+              <br />
+              <button
+                type="button"
+                class="bg-primary rounded-full py-3 px-9 hover:text-primary hover:bg-white font-semibold position-absolute my-3"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Navbar section end -->
+
+
+    <!-- ABOUT SECTION START -->
+    <section id="about">
+      <div class="container flex py-10 my-10 md:flex-row flex-col gap-10">
+        <div  class="md:container" data-aos="fade-right">
+          <img style="min-height: 400px;"  class="" src="https://ridetoworld.com/wp-content/uploads/2022/11/605190096aaf7-places_to_visit_in_thailand.jpg" alt="">
+        </div>
+        <div class="container space-y-4" data-aos="fade-left">
+          <h6 class="text-primary font-bold">ABOUT US__</h6>
+          <h1 class="text-[#2C3E50] text-4xl font-bold">Welcome to <span class="text-primary ">Tourist</span></h1>
+          <p class="text-paragraph">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+          <p class="text-paragraph">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+          <div class="flex text-paragraph justify-between">
+            <div>
+              <p><i class="fa-solid fa-arrow-right text-primary pe-3"></i>First Class Flights</p>
+              <p><i class="fa-solid fa-arrow-right text-primary pe-3"></i>5 Star Accommodations</p>
+              <p><i class="fa-solid fa-arrow-right text-primary pe-3"></i>150 Premium City Tours</p>
+            </div> 
+            <div>
+              <p><i class="fa-solid fa-arrow-right text-primary pe-3"></i>Handpicked Hotels</p>
+              <p><i class="fa-solid fa-arrow-right text-primary pe-3"></i>Latest Model Vehicles</p>
+              <p><i class="fa-solid fa-arrow-right text-primary pe-3"></i>24/7 Service</p>
+            </div>
+           
+          </div>
+          <div>
+            <a style="border: 1px solid; margin-top: 5px;" href="" class="text-lg bg-primary text-white py-3 px-8 hover:bg-white hover:text-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- OUR SERVICES SECTION START -->
+    <section id="service">
+      <div class="2xl:container space-y-10">
+        <div class="container text-center text-2xl text-primary font-bold"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        >
+          <h3>__OUR__SERVICES__</h3>
+        </div>
+        <div class="container flex  gap-8 md:flex-row flex-col justify-between items-center" data-aos="zoom-in-up">
+          <div class="shadow-2xl px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+            <h3 class=" text-xl font-bold">WorldWide Tours</h3>
+            <p class="text-paragraph">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          <div class="shadow-2xl  px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+            <h3 class=" text-xl font-bold">Hotel Reservation</h3>
+            <p class="text-paragraph">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          <div class="shadow-2xl  px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+            <h3 class=" text-xl font-bold">Travel Guides</h3>
+            <p class="text-paragraph">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          <div class="shadow-2xl  px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-cog text-primary mb-4 "></i>
+            <h3 class=" text-xl font-bold ">Event Management</h3>
+            <p class="text-paragraph ">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          
+        </div>
+        <div class="container flex md:flex-row flex-col gap-8 justify-between items-center" data-aos="zoom-in-down">
+          <div class="shadow-2xl  px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-tree text-primary mb-4"></i>
+            <h3 class=" text-xl font-bold">Best Environment</h3>
+            <p class="text-paragraph">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          <div class="shadow-2xl  px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-wifi text-primary mb-4"></i>
+            <h3 class=" text-xl font-bold">24/7 Wifi Services</h3>
+            <p class="text-paragraph">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          <div class="shadow-2xl  px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-car text-primary mb-4"></i>
+            <h3 class=" text-xl font-bold">Travel Guides</h3>
+            <p class="text-paragraph">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          <div class="shadow-2xl  px-6 py-12 *:hover:text-white hover:bg-primary">
+            <i class="fa fa-3x fa-camera text-primary mb-4 "></i>
+            <h3 class=" text-xl font-bold ">Best photography</h3>
+            <p class="text-paragraph ">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- OUR SERVICES SECTION END -->
+
+
+    <!-- Popular Destination section start-->
+    <section id="destination">
+      <div class="conatiner py-10 my-10">
+        <div class="container text-center"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        >
+          <h4 class=" text-primary font-bold">__DESTINATION__</h4>
+          <h1 class="text-4xl text-[#2C3E50] font-bold">Popular Destination</h1>
+        </div>
+        <div class="container md:flex-row flex-col flex items-center my-5">
+        <div class="md:container space-y-10">
+          <div class="relative" data-aos="zoom-in-up">
+            <img class="object-cover"  src="./images/destination-1.jpg" alt="">
+            <div style="height: 25px; width: 80px; background-color: white;  top: 5%; left: 3%; text-align: center;" class="absolute font-bold hover:bg-white hover:text-primary text-[#dc3545] cursor-pointer">30% OFF</div>
+            <div class="font-bold hover:bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="position: absolute; height: 30px; width: 85px; background-color: white;  top: 85%; left: 85%; text-align: center;">Thailand</div>
+          </div>
+          <div class="flex space-x-5">
+            <div class="relative" data-aos="zoom-in-up">
+              <img class="object-cover" src="./images/destination-2.jpg" alt="">
+              <div style=" height: 25px; width: 80px;  top: 5%; left: 5%;" class="text-center absolute font-bold bg-white hover:text-primary text-[#dc3545] cursor-pointer">25% OFF</div>
+              <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px; top: 85%; left: 70%; ">Malaysia</div>
+            </div>
+            <div class="relative" data-aos="zoom-in-up">
+              <img class="object-cover" src="./images/destination-3.jpg" alt="">
+              <div style="height: 25px; width: 80px; top: 5%; left: 5%;" class=" absolute font-bold text-center bg-white hover:text-primary text-[#dc3545] cursor-pointer">35% OFF</div>
+              <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px;  top: 85%; left: 70%;">Australia</div>
+            </div>
+           
+          </div>
+        </div>
+        <div class="md:container relative md:w-3/4 md:my-0 my-10" data-aos="zoom-in-up">
+          <img  class="object-cover h-full w-full" src="./images/destination-4.jpg" alt="">
+          <div style="height: 25px; width: 80px; top: 3%; left: 5%;" class="absolute text-center font-bold bg-white hover:text-primary text-[#dc3545] cursor-pointer">20% OFF</div>
+          <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px; top: 90%; left: 80%;"><p>Indonesia</p></div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Popular Destination section end-->
+
+
+    <!-- Awesome Packages section start -->
+    <section id="package">
+      <div class="container py-10 my-10">
+        <div class="container text-center"
+           data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+        >
+          <h4 class=" text-primary font-bold">__PACKAGES__</h4>
+          <h1 class="text-4xl text-[#2C3E50] font-bold">Awesome Packages</h1>
+        </div>
+        <div class="md:container py-10">
+          <div class="container flex md:flex-row flex-col justify-between md:gap-5 gap-8">
+            <div class="md:w-3/4 shadow-2xl"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+            
+            >
+              <img src="./images/package-1.jpg" alt="">
+              <div style="border-bottom: 1px solid;" class="text-center flex justify-around items-center border-paragraph">
+                <p style="border-left: 1px  solid; border-right: 1px solid;" class="px-3 py-2 text-paragraph border-paragraph"><i class="fa-solid fa-location-dot pe-1 text-primary"></i>Thailand</p>
+                <p style="border-left: 1px solid; border-right: 1px solid;" class="px-3 py-2 text-paragraph  border-paragraph"><i class="fa-solid fa-calendar-days text-primary pe-1"></i></i>3 days</p>
+                <p style="border-right: 1px solid; border-left: 1px solid;" class="px-3 py-2 text-paragraph  border-paragraph"><i class="fa-solid fa-user text-primary pe-1"></i></i>2 Person</p>
+              </div>
+              <div class="text-center space-y-5 py-5">
+                <div>
+                  <h1 class="font-bold text-[#2C3E50] text-3xl">$149.00</h1>
+                <p><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i></p>
+                </div>
+                <p class="text-paragraph">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                <div class="flex justify-center mb-3">
+                  <a  href="" class="bg-primary py-1 border text-sm px-4 rounded-s-2xl mx-0 hover:text-primary hover:bg-white">Read More</a>
+                  <a  href="" class="bg-primary py-1 border text-sm px-4 rounded-e-2xl mx-0 hover:text-primary hover:bg-white">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/4 shadow-2xl" 
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+            
+            >
+              <img src="./images/package-2.jpg" alt="">
+              <div style="border-bottom: 1px solid;" class="text-center flex justify-around items-center border-paragraph">
+                <p style="border-left: 1px  solid; border-right: 1px solid;" class="px-3 py-2 text-paragraph border-paragraph"><i class="fa-solid fa-location-dot pe-1 text-primary"></i>Indonesia</p>
+                <p style="border-left: 1px solid; border-right: 1px solid;" class="px-3  py-2 text-paragraph  border-paragraph"><i class="fa-solid fa-calendar-days text-primary pe-1"></i></i>3 days</p>
+                <p style="border-right: 1px solid; border-left: 1px solid;" class="px-3  py-2 text-paragraph  border-paragraph"><i class="fa-solid fa-user text-primary pe-1"></i></i>2 Person</p>
+              </div>
+              <div class="text-center space-y-5 py-5">
+                <div>
+                  <h1 class="font-bold text-[#2C3E50] text-3xl">$139.00</h1>
+                <p><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i></p>
+                </div>
+                <p class="text-paragraph">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                <div class="flex justify-center mb-3">
+                  <a  href="" class="bg-primary text-sm py-1 border px-4 rounded-s-2xl mx-0  hover:text-primary hover:bg-white">Read More</a>
+                  <a  href="" class="bg-primary text-sm py-1 border px-4 rounded-e-2xl mx-0  hover:text-primary hover:bg-white">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="md:w-3/4 shadow-2xl"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+            >
+              <img src="./images/package-3.jpg" alt="">
+              <div style="border-bottom: 1px solid;" class="text-center flex justify-around items-center border-paragraph">
+                <p style="border-left: 1px  solid; border-right: 1px solid;" class="px-3 py-2 text-paragraph border-paragraph"><i class="fa-solid fa-location-dot pe-1 text-primary"></i>Malaysia</p>
+                <p style="border-left: 1px solid; border-right: 1px solid;" class="px-3 py-2 text-paragraph  border-paragraph"><i class="fa-solid fa-calendar-days text-primary pe-1"></i></i>3 days</p>
+                <p style="border-right: 1px solid; border-left: 1px solid;" class="px-3 py-2 text-paragraph  border-paragraph"><i class="fa-solid fa-user text-primary pe-1"></i></i>2 Person</p>
+              </div>
+              <div class="text-center space-y-5 py-5">
+                <div>
+                  <h1 class="font-bold text-[#2C3E50] text-3xl">$189.00</h1>
+                <p><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i><i class="fa-solid fa-star text-primary"></i></p>
+                </div>
+                <p class="text-paragraph">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                <div class="flex justify-center mb-3">
+                  <a  href="" class="bg-primary text-sm py-1 border px-4 rounded-s-2xl  hover:text-primary hover:bg-white">Read More</a>
+                  <a  href="" class="bg-primary text-sm py-1 border px-4 rounded-e-2xl mx-0 hover:text-primary hover:bg-white">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Awesome Packages section end -->
+
+    <!--BOOKING SECTION START  -->
+    <section id="booking">
+      <div class="container flex md:flex-row flex-col book gap-10 md:gap-0 py-5 my-5">
+        <div class="container md:w-1/2" data-aos="fade-right">
+          <article class="text-white space-y-5">
+            <h4 class="font-bold">BOOKING</h4>
+            <h1 class="font-bold text-4xl">Online Booking</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <div class="">
+              <a href="" class="bg-white text-center text-black px-8 py-2 my-2 hover:text-white hover:bg-transparent border">Read More</a>
+            </div>
+          </article>
+          
+        </div>
+        <div class="container md:w-1/2" data-aos="fade-left">
+          
+            <div class="space-y-5">
+              <h1 class="text-white mb-2 text-3xl font-bold">Book A Tour</h1>
+             <form action="" class="space-y-5">
+              <div class="flex">
+                <div class="w-1/2">
+                <label class="text-white" for="">First Name :</label>
+                <input class="w-3/4  py-2 bg-transparent border text-center hover:border-primary" type="text" placeholder="Enter Your FirstName">
+              </div>
+                <div class="w-1/2">
+                <label class="text-white" for="">Last Name :</label>
+                <input class="w-3/4 py-2 bg-transparent border text-center hover:border-primary" type="text" placeholder="Enter Your LastName">
+              </div>
+              </div>
+              <div class="flex">
+               <div class="md:w-1/2">
+                <label class="text-white" for="">Your Email :</label><br>
+                <input class="py-2  md:w-3/4 w-3/4 bg-transparent border text-center hover:border-primary" type="email" placeholder="Enter Your Email Address">
+              </div>
+               <div class="w-1/2">
+                <label class="text-white" for="">Mobile :</label><br>
+                <input class="py-2 md:w-3/4 w-3/4 bg-transparent border text-center hover:border-primary" type="" placeholder="Enter Your Mobile Number">
+               </div>
+              </div>
+              <div>
+                <textarea class="border bg-transparent hover:border-primary" name="" id="" cols="70" rows="3" placeholder="Type other facility"></textarea>
+              </div>
+              <div class="w-1/4">
+                
+                <label for="" class="text-white">Number of People :</label>
+                <div class="border hover:border-primary">
+                <select class="form-select border" id="select1">
+                    <option value="1"> 1</option>
+                    <option value="2"> 2</option>
+                    <option value="3"> 3</option>
+                    <option value="4"> 4</option>
+                    <option value="5"> 5</option>
+                </select>
+              </div>
+            </div>
+            <div class="">
+              <a href="" class="bg-white text-center text-black px-5 py-2 my-2 hover:text-white hover:bg-transparent border">Book Now</a>
+            </div>
+             </form>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <!--BOOKING SECTION END  -->
+
+    <!-- OUR PROCESS SECTION START -->
+    <section id="process">
+      <div class="container py-10 my-10">
+        <div class="container text-center" data-aos="fade-down">
+          <h4 class=" text-primary font-bold">__ PROCESS __</h4>
+          <h1 class="text-4xl text-[#2C3E50] font-bold">3 Easy Steps</h1>
+        </div>
+        <div class="container flex justify-between items-center md:flex-row flex-col md:gap-6 gap-16 md:pt-0 pt-20 md:mt-28">
+          <div style="border: 1px solid #86B817;" class="relative text-center md:w-1/3 md:h-60" data-aos="fade-right">
+            <article class="pt-16 p-2">
+            <h3 class="text-lg font-bold text-[#2C3E50]">Choose A Destination</h3>
+            <div class="mx-36  pt-5 border-paragraph" style="border-bottom: 2px solid;"></div>
+           <div class="mx-40  py-1" style="border-bottom: 2px solid #86B817;"></div>
+            <p class="text-paragraph pt-5">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+          </article>
+            <div style="left: 40%; bottom: 85%;" class="absolute bg-primary rounded-full">
+              <i class="fa-solid fa-globe px-4 py-4  text-5xl text-white"></i>
+            </div>
+          </div>
+          <div style="border: 1px solid #86B817;" class="relative text-center md:w-1/3 md:h-60" data-aos="fade-up">
+            <article class="pt-16 p-2">
+            <h3 class="text-lg font-bold text-[#2C3E50]">Choose A Destination</h3>
+            <div class="mx-36  pt-5 border-paragraph" style="border-bottom: 2px solid;"></div>
+           <div class="mx-40  py-1" style="border-bottom: 2px solid #86B817;"></div>
+            <p class="text-paragraph pt-5">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+          </article>
+            <div style="left: 40%; bottom: 85%;" class="absolute bg-primary rounded-full">
+              <i class="fa-solid fa-dollar-sign px-6 py-4  text-5xl text-white"></i>
+             
+            </div>
+          </div>
+          <div style="border: 1px solid #86B817;" class="relative text-center md:w-1/3 md:h-60" data-aos="fade-left">
+            <article class="pt-16 p-2">
+            <h3 class="text-lg font-bold text-[#2C3E50]">Choose A Destination</h3>
+            <div class="mx-36  pt-5 border-paragraph" style="border-bottom: 2px solid;"></div>
+           <div class="mx-40  py-1" style="border-bottom: 2px solid #86B817;"></div>
+            <p class="text-paragraph pt-5">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+          </article>
+            <div style="left: 40%; bottom: 85%;" class="absolute bg-primary rounded-full">
+              <i class="fa-solid fa-plane px-4 py-4  text-5xl text-white"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR PROCESS SECTION END -->
+
+    <!-- our guide section start -->
+    <section id="contact">
+      <div class="container py-10 my-10">
+        <div class="container text-center md:text-center" data-aos="zoom-in-down">
+          <h4 class=" text-primary font-bold">__ TRAVEL GUIDE__</h4>
+          <h1 class="text-4xl text-[#2C3E50] font-bold">Meet Our Guide</h1>
+        </div>
+        <div class="container flex lg:flex-row flex-col justify-between items-center md:gap-5 gap-16 py-10 ">
+          
+            <div class="container lg:w-1/4 shadow-2xl" 
+            data-aos="zoom-in-up"
+           
+            >
+              <div class="relative">
+              <img src="./images/team-1.jpg" alt="">
+              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+                <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
+              </div>
+            </div>
+            <article class="text-center py-8">
+              <h4 class="text-lg font-bold text-[#2C3E50]">Full Name</h4>
+              <p class="text-paragraph">Designation</p>
+            </article>
+            </div>
+         
+          <div class="container lg:w-1/4 shadow-2xl"  data-aos="zoom-in-up">
+              <div class="relative" >
+              <img src="./images/team-2.jpg" alt="">
+              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+                <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
+              </div>
+            </div>
+            <article class="text-center py-8">
+              <h4 class="text-lg font-bold text-[#2C3E50]">Full Name</h4>
+              <p class="text-paragraph">Designation</p>
+            </article>
+            </div>
+          <div class="container lg:w-1/4 shadow-2xl"  data-aos="zoom-in-up">
+              <div class="relative">
+              <img src="./images/team-3.jpg" alt="">
+              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+                <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
+              </div>
+            </div>
+            <article class="text-center py-8">
+              <h4 class="text-lg font-bold text-[#2C3E50]">Full Name</h4>
+              <p class="text-paragraph">Designation</p>
+            </article>
+            </div>
+          <div class="container lg:w-1/4 shadow-2xl"  data-aos="zoom-in-up">
+              <div class="relative">
+              <img src="./images/team-4.jpg" alt="">
+              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+                <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
+                <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
+              </div>
+            </div>
+            <article class="text-center py-8">
+              <h4 class="text-lg font-bold text-[#2C3E50]">Full Name</h4>
+              <p class="text-paragraph">Designation</p>
+            </article>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- our guide section end -->
+
+    <!-- TESTIMONIALSECTION START -->
+    <section id="testimonial">
+      <div class="container text-center py-10" 
+      data-aos="fade-up"
+      data-aos-duration="3000"
+      >
+        <h4 class=" text-primary font-bold">__ TESTIMONIAL__</h4>
+        <h1 class="text-4xl text-[#2C3E50] font-bold">Our Clients Say!!!</h1>
+      </div>
+      <div class="container body">
+        
+        <div class="wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <ul class="carousel">
+            <li class="card">
+              <div class="img"><img src="./images/testimonial.jpg" alt="img" draggable="false"></div>
+              <h2>Blanche Pearson</h2>
+              <span>Sales Manager</span>
+            </li>
+            <li class="card">
+              <div class="img"><img src="./images/testimonial01.jpg" alt="img" draggable="false"></div>
+              <h2>Joenas Brauers</h2>
+              <span>Web Developer</span>
+            </li>
+            <li class="card">
+              <div class="img"><img src="./images/testimonial02.jpg" alt="img" draggable="false"></div>
+              <h2>Lariach French</h2>
+              <span>Online Teacher</span>
+            </li>
+            <li class="card">
+              <div class="img"><img src="./images/testimonial03.jpg" alt="img" draggable="false"></div>
+              <h2>James Khosravi</h2>
+              <span>Freelancer</span>
+            </li>
+            <li class="card">
+              <div class="img"><img src="./images/testimonial04.jpg" alt="img" draggable="false"></div>
+              <h2>Kristina Zasiadko</h2>
+              <span>Bank Manager</span>
+            </li>
+      
+            <li class="card">
+              <div class="img"><img src="./images/testimonial05.jpg" alt="img" draggable="false"></div>
+              <h2>Donald Horton</h2>
+              <span>App Designer</span>
+            </li>
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALSECTION END -->
+
+      <!-- footer section start -->
+      <section id="register">
+        <div class="bg-black text-white my-20 py-10">
+          
+          <div class="blog_our flex lg:flex-wrap lg:flex-row flex-col justify-around py-14">
+            <div class="space-y-4 lg:py-0 py-10 md:px-0 px-5" data-aos="zoom-in">
+              <h1 class="text-2xl">Company</h1>
+              <ul>
+                <li>
+                  <a
+                    class="decoration-slice hover:text-primary text-white font-semibold"
+                    href=""
+                    >=> Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="decoration-slice hover:text-primary text-white font-semibold"
+                    href=""
+                    >=> Furniture</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="decoration-slice hover:text-primary text-white font-semibold"
+                    href=""
+                    >=> Contact Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="decoration-slice hover:text-primary text-white font-semibold"
+                    href=""
+                    >=> About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="decoration-slice hover:text-[#f89646] text-white font-semibold"
+                    href=""
+                    >=> Blog</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="space-y-5 lg:py-0 py-10 md:px-0 px-5" data-aos="zoom-in">
+              <h1 class="text-2xl">Contact</h1>
+              <div class="space-y-2">
+                <p><i class="fa-solid fa-location-dot me-3"></i>123 Street, New York, USA</p>
+                <p><i class="fa-solid fa-phone me-3"></i></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+              </div>
+              <div>
+                <a
+                  class="bg-white text-black p-3 rounded-md hover:text-primary  text-lg border-black"
+                  href=""
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a
+                  class="bg-white text-black p-3 rounded-md hover:text-primary  text-lg border-black"
+                  href=""
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a
+                  class="bg-white text-black p-3 rounded-md hover:text-primary  text-lg border-black"
+                  href=""
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a
+                  class="bg-white text-black p-3 rounded-md hover:text-primary  text-lg border-black"
+                  href=""
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+            <div class="space-y-4 lg:py-0 py-10 md:px-0 px-5" data-aos="zoom-in">
+              <h1 class="text-2xl font-semibold">Gallery</h1>
+              <div>
+                <div class="space-y-4">
+                  <div class="*:w-20 flex gap-3">
+                    <div class="bg-white p-1">
+                      <img src="./images/package-1.jpg" alt="" />
+                    </div>
+                    <div class="bg-white p-1">
+                      <img src="./images/package-2.jpg" alt="" />
+                    </div>
+                    <div class="bg-white p-1">
+                      <img src="./images/package-3.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="*:w-20 flex gap-3">
+                    <div class="bg-white p-1">
+                      <img src="./images/package-1.jpg" alt="" />
+                    </div>
+                    <div class="bg-white p-1">
+                      <img src="./images/package-2.jpg" alt="" />
+                    </div>
+                    <div class="bg-white p-1">
+                      <img src="./images/package-3.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="box space-y-5 lg:py-0 py-10 md:px-0 px-5"
+              data-aos="zoom-in"
+            >
+              <h1 class="text-2xl font-semibold text-white">
+                Newsletter
+              </h1>
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                class="bg-white text-paragraph w-72 h-8 p-5"
+              />
+              <div class="detail-box ">
+                <a href="" class="bg-primary px-5 py-3 rounded-xl hover:bg-white hover:text-primary"> Sign Up </a>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer section end -->
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
