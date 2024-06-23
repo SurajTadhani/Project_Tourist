@@ -5,14 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Tourist</title>
+
+    <!-- import external css file -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- import aos css file -->
     <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
-    <style>
-      html,body{
-        width: 100%;
-        overflow-x: hidden;
-      }
-    </style>
+    
+    <!-- import font-awesome file -->
     <link
       rel="stylesheet"
       href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
@@ -116,12 +115,12 @@
             </div>
           </div>
         </nav>
-        <div style="top: 40%;" class="absolute left-1/4 text-center child">
+        <div style="top: 40%;" class="absolute left-1/4 w-2/4 text-center child">
           <div class="space-y-5"  data-aos="fade-down">
-            <h1 class="text-6xl text-white font-bold">
+            <h1 class="text-5xl text-white font-bold">
               Enjoy Your Vacation With Us
             </h1>
-            <p class="text-white font-bold text-lg tracking-tight">
+            <p class="text-white font-bold text-base tracking-tight">
               Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum
               lorem sit
             </p>
@@ -253,18 +252,18 @@
           <div class="relative" data-aos="zoom-in-up">
             <img class="object-cover"  src="./images/destination-1.jpg" alt="">
             <div style="height: 25px; width: 80px; background-color: white;  top: 5%; left: 3%; text-align: center;" class="absolute font-bold hover:bg-white hover:text-primary text-[#dc3545] cursor-pointer">30% OFF</div>
-            <div class="font-bold hover:bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="position: absolute; height: 30px; width: 85px; background-color: white;  top: 85%; left: 85%; text-align: center;">Thailand</div>
+            <div class="font-bold hover:bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="position: absolute; height: 30px; width: 85px; background-color: white;  top: 80%; left: 85%; text-align: center;">Thailand</div>
           </div>
           <div class="flex space-x-5">
             <div class="relative" data-aos="zoom-in-up">
               <img class="object-cover" src="./images/destination-2.jpg" alt="">
               <div style=" height: 25px; width: 80px;  top: 5%; left: 5%;" class="text-center absolute font-bold bg-white hover:text-primary text-[#dc3545] cursor-pointer">25% OFF</div>
-              <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px; top: 85%; left: 70%; ">Malaysia</div>
+              <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px; top: 85%; left: 65%; ">Malaysia</div>
             </div>
             <div class="relative" data-aos="zoom-in-up">
               <img class="object-cover" src="./images/destination-3.jpg" alt="">
               <div style="height: 25px; width: 80px; top: 5%; left: 5%;" class=" absolute font-bold text-center bg-white hover:text-primary text-[#dc3545] cursor-pointer">35% OFF</div>
-              <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px;  top: 85%; left: 70%;">Australia</div>
+              <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px;  top: 85%; left: 65%;">Australia</div>
             </div>
            
           </div>
@@ -272,7 +271,7 @@
         <div class="md:container relative md:w-3/4 md:my-0 my-10" data-aos="zoom-in-up">
           <img  class="object-cover h-full w-full" src="./images/destination-4.jpg" alt="">
           <div style="height: 25px; width: 80px; top: 3%; left: 5%;" class="absolute text-center font-bold bg-white hover:text-primary text-[#dc3545] cursor-pointer">20% OFF</div>
-          <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px; top: 90%; left: 80%;"><p>Indonesia</p></div>
+          <div class="absolute text-center font-bold bg-white text-primary hover:text-[#dc3545] cursor-pointer" style="height: 30px; width: 85px; top: 90%; left: 75%;"><p>Indonesia</p></div>
         </div>
       </div>
       </div>
@@ -452,7 +451,8 @@
             <article class="pt-16 p-2">
             <h3 class="text-lg font-bold text-[#2C3E50]">Choose A Destination</h3>
             <div class="mx-36  pt-5 border-paragraph" style="border-bottom: 2px solid;"></div>
-           <div class="mx-40  py-1" style="border-bottom: 2px solid #86B817;"></div>
+           <div class="sm:mx-40 sm:w-auto w-10 mx-20  py-1" style="border-bottom: 2px solid #a2d435;">
+          </div>
             <p class="text-paragraph pt-5">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
           </article>
             <div style="left: 40%; bottom: 85%;" class="absolute bg-primary rounded-full">
@@ -502,7 +502,7 @@
             >
               <div class="relative">
               <img src="./images/team-1.jpg" alt="">
-              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+              <div style="top: 92%; left: 20%;" class="absolute flex space-x-3">
                 <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
@@ -517,7 +517,7 @@
           <div class="container lg:w-1/4 shadow-2xl"  data-aos="zoom-in-up">
               <div class="relative" >
               <img src="./images/team-2.jpg" alt="">
-              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+              <div style="top: 92%; left: 20%;" class="absolute flex space-x-3">
                 <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
@@ -531,7 +531,7 @@
           <div class="container lg:w-1/4 shadow-2xl"  data-aos="zoom-in-up">
               <div class="relative">
               <img src="./images/team-3.jpg" alt="">
-              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+              <div style="top: 92%; left: 20%;" class="absolute flex space-x-3">
                 <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
@@ -545,7 +545,7 @@
           <div class="container lg:w-1/4 shadow-2xl"  data-aos="zoom-in-up">
               <div class="relative">
               <img src="./images/team-4.jpg" alt="">
-              <div style="top: 92%; left: 30%;" class="absolute flex space-x-3">
+              <div style="top: 92%; left: 20%;" class="absolute flex space-x-3">
                 <a class="rounded-full bg-white border-b-primary border-b hover:bg-primary" href=""><i class="fa-brands fa-facebook text-lg text-primary hover:text-white py-3 rounded-full  px-2"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-twitter text-lg text-primary hover:text-white"></i></a>
                 <a class=" rounded-full bg-white border-b-primary border-b hover:bg-primary " href=""><i class="py-3 px-2 fa-brands fa-instagram text-lg text-primary hover:text-white"></i></a>
@@ -739,6 +739,7 @@
       </section>
       <!-- footer section end -->
 
+      <!-- import external javascript file -->
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

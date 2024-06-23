@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+html,body{
+	width: 100%;
+	overflow-x: hidden;
+}
+
 .bg-img {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
     url(../images/bg-hero.jpg);
@@ -40,15 +45,11 @@
   background-attachment: fixed;
 }
 
-/* testimonial start */
-/* Import Google font - Poppins */
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
-}
+/* testimonial start */
+
+
+
 .body {
 	display: flex;
 	padding: 0 35px;
